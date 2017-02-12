@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ufon/rollingscopes#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
@@ -31,7 +32,6 @@
     "babel-preset-es2015-native-modules": "^6.9.4",
     "babel-preset-react": "^6.22.0",
     "css-loader": "^0.26.1",
-    "ejs-loader": "^0.3.0",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.28.0",
