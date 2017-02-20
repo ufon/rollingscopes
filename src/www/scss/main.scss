@@ -1,4 +1,19 @@
-
 /* Bootstrap grid */
 
 @import "vendor/bootstrap-grid";
+
+/* Include normalize.scss */
+
+@import '~bootstrap/scss/_normalize.scss';
+
+/* Include reboot.scss */
+
+@import '~bootstrap/scss/_reboot.scss';
+
+@import "partials/nav";
+
+@import "partials/sidebar";
+
+body{
+	background: #f5f5f5;
+}

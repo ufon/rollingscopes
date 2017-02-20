@@ -6,7 +6,7 @@ module.exports = function (env) {
         context: path.resolve(__dirname, '../src'),
 
         entry: {
-            app: './app.js',
+            app: './index.js',
         },
 
         output: {
@@ -22,7 +22,7 @@ module.exports = function (env) {
                     loader: 'babel-loader',
                     exclude: /node_modules/,
                     query: {
-                        presets: ['es2015', 'react']
+                        presets: ['es2015', 'stage-0', 'react']
                     }
                 }, {
                     test: /\.(sass|scss)$/,
